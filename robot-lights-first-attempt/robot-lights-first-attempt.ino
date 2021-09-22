@@ -13,16 +13,28 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  switchOnRedLight();
+  delay(1000);
+  switchOnOrangeLight();
+  switchOnGreenLight();
+}
+
+void switchOnRedLight() {
   digitalWrite(redLight, HIGH);
   delay(4000);
   digitalWrite(redLight, LOW);
-  delay(1000);
+};
+
+
+void switchOnOrangeLight() {
   digitalWrite(orangeLight, HIGH);
   delay(4000);
   digitalWrite(orangeLight, LOW);
   delay(1000);
+};
+
+void switchOnGreenLight() {
   digitalWrite(greenLight, HIGH);
   delay(4000);
   digitalWrite(greenLight, LOW);
-  delay(1000);
-}
+};
