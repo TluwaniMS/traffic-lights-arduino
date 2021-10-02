@@ -16,3 +16,5 @@ until the Arduino is disconnected/removed from the power source.
 * USB cable A-B for Arduino or a power supply of choice * 1
 * Arduino Uno R3/V3 * 1
 * Breadboard * 1
+
+![circuit image](https://raw.githubusercontent.com/TluwaniMS/traffic-lights-arduino/main/Fantastic%20Crift.png)
